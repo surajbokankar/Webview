@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setUrl() {
-        webView.loadUrl("https://drugdiscovery-4f2c4.firebaseapp.com/demo.html");  //file:///Users/suraj.bokankar/Downloads/demo.html
+        webView.loadUrl("Add Url");  //https://project.domain.com/demo.html
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setSaveFormData(false);
         webView.getSettings().setBuiltInZoomControls(true);
